@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.coma076d05399/yourcode.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light center">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="merc" src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1464035784/pzzitt9h3f3qal1bprmn.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav ">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown link
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">COURSES</a></li>
+                      <li><a class="dropdown-item" href="#"> option</a></li>
+                      <li><a class="dropdown-item" href="#">LOG IN</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><button type="button" class="btn btn- button haut" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    LOG IN
+                  </button></a>
+              </li>
+              <div class="modal fade" id="exampleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">JOIN PRAMP</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                       <form >
+                        <label >
+                            <i class="fas fa-user"></i>
+                            votre Nom
+                        </label>
+                        <div>
+                            <input type="text" placeholder="entrer votre nom"  class="btn btn-info" required>
+                        </div>
+                        <label>
+                            <i class="fas fa-key"></i>
+                            votre mot de passe
+                        </label>
+                        <div>
+                            <input type="password" placeholder="entrer votre mot de passe" class="btn btn-info" required>
+                        </div>
+                    </form>
+                    </div>
+                    <a href="#exampleModal">forgot password?</a>
+                    <button type="button" class="btn btn-danger">CONTINUE</button>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">continue with F</button>
+                      <button type="button" class="btn btn-danger">continu with G</button>
+                    </div>
+                    <hr>
+               <a href="#exampleModal" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#login"> Log in</a>
+                  </div>
+                 
+                </div>
+              </div>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="login" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="staticBackdropLabel">LOG IN</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                           <form >
+                            <label >
+                                <i class="fas fa-user"></i>
+                                votre Nom
+                            </label>
+                            <div>
+                                <input type="text" placeholder="entrer votre nom"  class="btn btn-info" required>
+                            </div>
+                            <label>
+                                <i class="fas fa-key"></i>
+                                votre email
+                            </label>
+                            <div>
+                                <input type="password" placeholder="entrer votre email" class="btn btn-info" required>
+                            </div>
+                        </form>
+                        </div>
+                        <a href="#">forgot password?</a>
+                        <button type="button" class="btn btn-danger">CONTINUE</button>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">continue with F</button>
+                          <button type="button" class="btn btn-danger">continu with G</button>
+                        </div>
+                </div>
+              </div>
+                  </div>
+                  
+                </div>
+              </div>
+                  </div>
+              </div>
+            </div>
+            </ul>
+          </div>
+        </div>
+    </nav>
+      <div id="partie2" class="text-center">
+          <p class="par">Exclusive: Mock interviews from experts at Google, Facebook, and more (20% off)<input class="more" type="text" value="Learn more"></p>
+      </div>
+      <div class="text text-center">
+        <p class="fist">
+         Interviewing: the most<br>
+         profitable skill you can learn
+        </p>
+        <p class="second">Don't miss out on a great job opportunity<br>
+         Practice live interviews with peers </p>
+         <button type="button" class="btn btn start">Start Practicing for Free!</button> <br>
+         <p class="titre">Pramp is safe and anonymous, your data is yours</p>
+    </div>
+    <div class="partie3">
+        <div class="code"><img src="images/logo-coca-cola.png" alt=""></div> 
+       <div class="code"> <img src="images/logo-oppo.png" alt=""></div>
+       <div class="code"> <img src="images/logo-paypal.png" alt=""></div>
+       <div class="code"> <img src="images/logo-godrej.png" alt=""></div>
+       <div class="code"> <img src="images/logo-philips.png" alt=""></div>
+       </div>
+       <p class="thirty text-center">Join thousands of professionals who already use<br> Pramp to ace their job interviews</p>
+       <div class="container-fluid content">
+        <div class="row">
+            <div class="col-4">
+                <img src="images/user-1.png" class="user1">     <button type="button" class="btn btn suc">Google</button>  <button type="button" class="btn btn suc">Microsoft</button> 
+                <h3>Dunel mekem</h3>
+                <p > Je suis vraiment saticfere de <br> vos produits car ils sont nos<br> seulement de tres bonnes qualites <br> le pris est egalenenr abordable</p>
+                <i class="star">&#9733</i>
+                <i class="star">&#9733</i>
+                <i class="star">&#9733</i>
+                <i class="star">&#9733</i>
+                <i class="star">&#9733</i>
+        </div>
+        <div class="col-4">
+            <img src="images/user-2.png" class="user1">  <button type="button" class="btn btn suc">Facebook</button>   <button type="button" class="btn btn suc">Microsoft</button>         
+            <h3>Christian Yemtsa</h3>
+            <p> Je suis vraiment saticfere de <br> vos produits car ils sont nos<br> seulement de tres bonnes qualites <br> le pris est egalenenr abordable</p>
+            <i class="star">&#9733</i>
+                <i class="star">&#9733</i>
+                <i class="star">&#9733</i>
+                <i class="star">&#9733</i>
+                <i class="star">&#9733</i>
+            </div>
+            <div class="col-4">
+                <img src="images/user-3.png" class="user1">   <button type="button" class="btn btn suc">Amazon</button>    <button type="button" class="btn btn suc">Google</button>            
+                <button type="button" class="btn btn suc">Twitter</button>
+                <h3>Rose malongzeu</h3>
+                <p> Je suis vraiment saticfere de <br> vos produits car ils sont nos<br> seulement de tres bonnes qualites <br> le pris est egalenenr abordable</p>
+                <i class="star">&#9733</i>
+                <i class="star">&#9733</i>
+                <i class="star">&#9733</i>
+                <i class="star">&#9733</i>
+                <i class="star">&#9733</i>
+            </div>
+	</div>
+	</div> <br> <br> <br> <br> <br> <br>
+    <div class="container-fluid pousse">
+        <div class="row">
+            <h2 class="enter">How Pramp Practicing Works</h2> <br> <br> <br>
+            <div class="col-4">
+                <div class="span" >1</div><p class="pan">Get Paired</p>
+                <p>Tell us when and what you <br> want to practice and <br>we’ll pair you with an optimal <br> peer. We provide interview <br>  questions and a collaborative</p>
+            </div>
+            <div class="col-4">
+                <div class="span">2</div><p class="pan">Practice</p>
+                <p> <p>Tell us when and what you <br> want to practice and <br>we’ll pair you with an optimal <br> peer. We provide  interview<br> questions and a collaborative</p>
+            </p>
+            </div>
+            <div class="col-4">
+                <div class="span">3</div><p class="pan">Ace It</p>
+                <p> <p>Tell us when and what you <br> want to practice and<br> we’ll pair you with an optimal <br> peer. We provide interview  <br>questions and a collaborative</p>
+            </p>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn fin">Start Practicing for Free!</button>
+    <div class="cente">
+        <h3 class="moyen">Stop preparing alone</h3> <br>
+        <h4 class="grand">Get Real <span> Interview Practice</span></h4>
+         <p class="medium">Acing job interviews requires many skills: problem-solving, communication,<br> product sensibility, and strong technical aptitude. There's one certain way to <br> get dramatically better: Practicing Live Interviews.
+        </p>
+        <button type="button" class="btn btn petit">Check Out a Demo Interview</button><br><br><br>
+        <img class="thank" src="https://www.pramp.com/img/prampSession.png" alt="">
+        <p class="description">We've built Pramp to provide the complete tech interview practice you need,<br> for free. Hone your interviewing skills, learn from your peers, and become <br> comfortable performing under pressure within an interview setting.</p>
+    </div>
+    <div class="container-fuild dernier">
+            <div class="row">
+                <div class="col-4"> <p> <img class="log" src="https://www.pramp.com/img/humanPairingIcon.png" alt=""> <h5>Personal Peer Matching</h5>Each practice peer is picked especially for you,<br> based on availability, experience, education, <br> practice topics, and target companies.</p> </div>
+                <div class="col-4"><p> <img  class="log" src="https://www.pramp.com/img/questionsIcon.png" alt=""> <h5>Full Interview Questions</h5> Full questions, answers and specific interviewing <br>tips enable both you and your peer to interview <br> each other like pros.</p> </div>
+                <div class="col-4"><p> <img  class="log" src="https://www.pramp.com/img/sessionTechIcon.png" alt=""> <h5>Interactive 1-on-1 Practice</h5>Each practice peer is picked especially for you,<br> based on availability, experience, education, <br> practice topics, and target companies.</p></div>
+            </div><br><br>
+            <hr>
+            <footer>
+          <div class="row">
+            <div class="col-2">
+                <p>3© Exponent Labs, LLC</p>
+            </div>
+            <div class="col-4">
+                <p> Contact us at: <a href="#"> sonkwemekemdeste@gmail.com </a></p>
+        </div>
+            <div class="col-4">
+
+                 <a href="#">PRACTICE WITH FRIE </a> 
+                 <a href="#">WORK WITH US</a>
+                 
+            </div>
+            <div class="col-2">
+                <i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </footer>
+            </div>
+        </div>
+        <script src="bootstrap-5/js/bootstrap.min.js"></script>
+    </body>
+    </html>
